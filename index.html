@@ -1,0 +1,105 @@
+<!-- proyecto: Liga de futbol
+cliente: Promarketing
+version developed 0.0.1
+fecha de compilacion 16 de enero de 2016
+programacion: victor omar muñoz bermejo
+
+
+detecsa consultores sa de cv copy rigth @ detecsa consultores sa de cv 2016-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- titulo de la pestaña -->
+	<title>Index Rutas</title>
+<!-- scripots y csss -->
+	<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">	
+</head>
+<!-- CUERPO DE LA PAGINA -->
+<body>
+<!-- div principal de toda la pagina -->
+	<div id="logo">
+		<h1>
+			<img src="images/icono.png" width="50" height="50">
+			<a href="index.html">Sistema de optimizacion de rutas</a>
+		</h1>
+</div>
+<!-- Se acaba la cabecera de la pagina -->
+	<!-- <meta http-equiv="acción" content="segundos"; url="url destino" /> -->
+<!-- menu de las opciones -->
+
+	<ul id="menu">
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="equipos.php">Clima</a></li>
+		<li><a href="campos.php">Hora</a></li>
+		<li><a href="calendario.php">Noticias</a></li>
+		<li><a href="sesion.php">Iniciar Session</a></li>
+
+	</ul>
+
+<!-- fin del menu -->
+
+	<!-- slider de fotos -->
+	<div id="page">
+		<div id="content-other">
+			<div id="slider">
+				<div class="viewer">
+					<div class="reel">
+					<!-- fotos del slider -->
+						<div class="slide"> <img src="images/r1.jpg" width="590" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/r2.jpg" width="590" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/r3.jpg" width="590" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/r4.png" width="350" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/r5.jpg" width="590" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/r6.jpg" width="590" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/r7.jpg" width="590" height="300" alt="" /> </div>
+					<!-- fin del grupo de fotos para el slider -->
+					</div>
+				</div>
+			</div>
+			<!-- script del carrousel de fotos de la portada -->
+			<script type="text/javascript">
+				$('#slider').slidertron({
+					viewerSelector: '.viewer',
+					reelSelector: '.viewer .reel',
+					slidesSelector: '.viewer .reel .slide',
+					advanceDelay: 3000,
+					speed: 'slow'
+				});
+			</script>
+		<!-- fin de slider -->
+
+		<!-- nota principal que aparece en la portada -->
+			<!-- titulo de la nota principal -->
+			<div class="post">
+				<center>
+				<h2 id="otro"><a href="#">Bienvenido al Sistema de Optimizacion de Rutas De Transporte</a></h2>
+				<p class="meta">Publicado por: <a href="#">Luis Prado</a> el 16 de julio de 2017</p>
+			<!-- cuerpo de la nota principal -->
+				<div class="entry">
+					<p>	•	Conocer las distintas rutas de transporte que puede tomar el usuario para llegar a su destino utilizando el transporte público del D.M.Q<br>
+						•	Reducir el tiempo de viaje para el usuario usando la ruta más óptima para llegar a su destino. <br>
+						•	Conocer las rutas anteriormente visitadas por el usuario <br>
+						•	Conocer el estado del tráfico en el momento de realizar el viaje. <br>
+					</p>
+				</div>
+
+			</div> <!-- fin de la nota principal -->
+		</div> <!-- fin del container -->
+	</div>
+	<!-- end #page -->
+</div>
+<!-- pie de pagina -->
+<div id="footer">
+		  <p>Sistema de Optmización de Rutas <a href="#" rel="nofollow">LUIS PRADO </a>.</p>
+		</div>
+<!-- FIN DEL PIE -->
+</body>
+</html>
